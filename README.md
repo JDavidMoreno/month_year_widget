@@ -16,7 +16,7 @@
 <div align="center">
   <table>
     <tr>
-      <td><img alt="example field just months-years" src="https://github.com/JDavidMoreno/month_year_widget/main/.github/images/widget_example.png" /></td>
+      <td><img alt="example field just months-years" src="https://github.com/JDavidMoreno/month_year_widget/blob/main/.github/images/widget_example.png" /></td>
     </tr>
   </table>
 </div>
@@ -42,7 +42,7 @@ Move this module to your addons folder. Then restart your Odoo server and, while
 
 Once the module is installed. Add it to the `__manifest__.py` of the module where you want to use it. Then, in the xml add the `widget='month_year_format'`.
 
-![xml widget example](https://github.com/JDavidMoreno/month_year_widget/main/.github/images/code_example.png)
+![xml widget example](https://github.com/JDavidMoreno/month_year_widget/blob/main/.github/images/code_example.png)
 
 ## License
 
