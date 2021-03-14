@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_common" name="Fixed Tempusdominus" inherit_id="web.assets_common">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/all_month_year_widget/static/lib/tempusdominus.js" />
+        </xpath>
+    </template>
+
+    <template id="assets_backend" name="Date and Month Widget assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/all_month_year_widget/static/src/js/month_year_format_widget.js"></script>
+        </xpath>
+    </template>
+
+</odoo>
