@@ -1,5 +1,5 @@
 
-odoo.define('all_month_year_widget.month_year_format', function (require) {
+odoo.define('month_year_widget.month_year_format', function (require) {
     "use strict";
 
     var fieldRegistry = require('web.field_registry');
